@@ -22,6 +22,10 @@ label {
   font-weight: 600;
 }
 
+header {
+  background-color: #2cb67d;
+}
+
 
 .form-container {
   display: flex;
@@ -43,10 +47,7 @@ label {
   text-decoration: underline;
 }
 
-.form-select {
 
-
-}
 
 .card {
   background-color: #ffffff;

@@ -1,6 +1,7 @@
 /* Här är navbars css -Manuel*/
 .navbar {
     background-color: #2cb67d;
+    width: 100%;
     border-bottom: 2em;
     border-bottom-color: blue;
 }
