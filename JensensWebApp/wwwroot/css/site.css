@@ -14,11 +14,49 @@ html {
 }
 
 body {
-  background-color: #ebebeb;
+  background-color: #fffffe;
   margin-bottom: 60px;
 }
 
+label {
+  font-weight: 600;
+}
+
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-form {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  padding: 2rem;
+  border-radius: 1rem;
+  
+}
+
+.h1 {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.form-select {
+
+
+}
+
+.card {
+  background-color: #ffffff;
+  margin-bottom: 60px;
+}
 .btn {
+
+  margin-top: 1rem;
+  background-color: #2cb67d;
+  border: none;
   text-transform: uppercase;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   -webkit-transition-duration: 0.3s;
@@ -28,6 +66,7 @@ body {
 }
 
 .btn:hover, .btn:focus, .btn:active {
+  background-color: #2cb67d;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -37,7 +76,7 @@ body {
 .card-link {
   position: relative;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: rgb(39, 78, 255);
+  color: #6246ea;
   text-decoration: none;
   letter-spacing: 0.5px;
   padding: 0 5px;
@@ -46,7 +85,7 @@ body {
 .card-link:after {
   content: "";
   position: absolute;
-  background-color: rgb(39, 78, 255);
+  background-color: #6246ea;
   height: 3px;
   width: 0;
   left: 0;
@@ -55,7 +94,7 @@ body {
 }
 
 .card-link:hover{
-  color: rgb(39, 78, 255);
+  color: #6246ea;
   font-weight: bold;
 }
 
